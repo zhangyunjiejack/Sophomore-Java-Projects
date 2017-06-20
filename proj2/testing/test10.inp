@@ -1,0 +1,30 @@
+# Check that trivial forced draw is detected: one auto player.
+java -ea ataxx.Main
+seed 779941
+block c1
+block d1
+block a2
+block b2
+block c2
+block d2
+block a3
+block b3
+block c3
+block d3
+start
+a7-b7
+@?Blue moves ..-..\.
+g1-f1
+@?Blue moves ..-..\.
+@<Draw.
+dump
+@<===
+@<  r r X X X b b
+@<  X X X X X X X
+@<  X X X X X X X
+@<  - - - - - - -
+@<  X X X X X X X
+@<  X X X X X X X
+@<  b b X X X r r
+@<===
+quit

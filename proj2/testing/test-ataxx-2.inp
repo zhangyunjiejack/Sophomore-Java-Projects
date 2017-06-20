@@ -1,0 +1,19 @@
+# Your very own integration test!
+# Test2 input file.
+java -ea ataxx.Main
+block b2
+block d4
+
+a7-a5
+a1-a3
+a5-a4
+dump
+@<===
+@<  - - - - - - b
+@<  - X - - - X -
+@<  r - - - - - -
+@<  r - - X - - -
+@<  r - - - - - -
+@<  - X - - - X -
+@<  - - - - - - r
+@<===
